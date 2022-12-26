@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Weather App Using API</h2>
+    <h2>Click The below Button To See Weather of Your current location</h2>
+    <button id="loca-btn">Click</button>
+    <div id="Search-container">
+        <h5>Search Your city and get the weather</h5>
+        <input type="text" id="input" placeholder="Enter City Name">
+        <button id="search-btn" onclick="visible()">Search</button>
+    </div>
+
+    <div id="output-container">
+        <h3 id="city-name"></h3>
+        <h4 id="city-time"></h4>
+        <p id="city-temp"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6497b1;
+}
+body{
+    background-color: #ead5dc;
+    
+}
+h2{
+    text-align: center;
+    margin:20px 0 20px 0 ;
+}
+
+#Search-container{
+    display: flex; 
+    border: 1px solid black;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #03396c;
+    border-radius: 10px;
+    padding: 14px;
+    flex-direction: column;
+}
+
+#Search-container>input{
+    padding: 5px;
+    border-radius: 3px;
+    margin: 9px;
+    display: block;   
+    border: 1px solid white;
+}
+
+#Search-container>#search-btn{
+    padding: 4px;
+    border-radius: 6px;
+    background-color: black;
+    color: lightsteelblue;
+    cursor: pointer;
+}
+#Search-container>#search-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#output-container{
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    background-color:  #451e3e;
+    border-radius: 8px;
+    visibility: hidden;
+}
+
+#loca-btn{
+position: relative;
+left: 48%;
+margin-bottom: 34px;
+cursor: pointer;
+padding: 10px;
+border-radius: 23px;
+border: 1px solid black;
+}
+#loca-btn:hover{
+    background-color: black;
+    color: white;
+}
+h5{
+    color: burlywood;
+}
